@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Comic Sans,Comic Sans MS,cursive;
+}
+
+body {
+  background: #1ba11a url(../img/tile.png) top left repeat;
+  cursor: url('../img/cursor2.png'), auto;
+}
+
+#bow-right, #bow-left {
+  position: absolute;
+  padding: 38px 23px;
+  top: 60px;
+}
+
+#bow-right {
+  background: url('../img/bow_right.png') no-repeat;
+  right: 10px;
+}
+
+#bow-left {
+  background: url('../img/bow_left.png') no-repeat;
+  left: 0;
+}
+
+#sexoSexoSemParar {
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 965px;
+}
+
+.textoFetido {
+  font-size: 26px;
+}
+
+.containerFetido {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px 0;
+}
+
+#sexoSexoSemParar h1 {
+  color: #fff;
+  font-size: 100px;
+  font-family: sans-serif !important;
+}
+
+#sexoSexoSemParar h3 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: normal;
+}
+
+.textoCorDeMijo {
+  color: #fff54f !important;
+}
+
+.textoCorDeMijoForte {
+  color: #ffe107 !important;
+}
+
+.textoCorDePorra {
+  color: #fff;
+}
+
+.noMeio {
+  text-align: center;
+}
+
+.negrito {
+  font-weight: bold;
+}
+
+.comSombra {
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, .5);
+}
+
+.textoGrandeIgualMinhaPica {
+  font-size: 42px;
+  line-height: 1.2em;
+}
+
+#caraDoMamaco {
+  margin-top: 15px;
+  width: 300px;
+  border: 20px solid #bba922;
+  outline: 2px solid #eaeac4;
+}
+
+.lindosRetratos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#alexMeio {
+  width: 100%;
+  justify-content: space-evenly !important;
+  padding-top: 75px;
+  padding-bottom: 35px;
+}
+
+.queLindoRetrato {
+  border: 2px solid #eaeac4ad;
+  outline: 2px solid #eaeac4;
+  border-radius: 2px;
+}
+
+#containerFetido {
+  padding: 15px;
+}
+
+#copyright {
+  font-size: 14px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#botaoFodaDeDonate {
+  position: absolute;
+}
+
+.containerDonate {
+  height: 180px;
+}
+
+#botaoFodaDeDonate img {
+  width: 330px;
+  transition: 500ms;
+}
+
+#botaoFodaDeDonate:hover img {
+  width: 340px;
+}
+
+#qualquerValorEhBemVindo {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#qualquerValorEhBemVindo strong {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+#qualquerValorEhBemVindo em {
+  color: rgba(255, 255, 255, .5)
+}
